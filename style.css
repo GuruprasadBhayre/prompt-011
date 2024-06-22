@@ -1,0 +1,1035 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+background: url(https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position: center;
+font-family: "Rubik", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+.room{
+    height: 7%;
+    width: 40%;
+    background-color: transparent;
+    background-color: rgba(41, 41, 41, 0.459);
+    backdrop-filter: blur(2px);
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around
+}
+.living{
+    height: 80%;
+    width: 20%;   
+    border: none;
+    border-radius: 20px;
+    margin-top: 4px;
+    font-size: 11px;
+    text-align: end;
+    padding: 10px 8px 0px 0px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+}
+.living:hover{
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+#sofa{
+    position: absolute;
+    left: 9%;
+    font-size: 15px;
+    top: 25%;
+}
+.dining{
+    height: 80%;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 4px;
+    font-size: 11px;
+    text-align: end;
+    padding: 10px 8px 0px 0px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+}
+.dining:hover{
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+#cup{
+    position: absolute;
+    left: 9%;
+    font-size: 15px;
+    top: 25%;
+}
+.bed{
+    height: 80%;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 4px;
+    font-size: 11px;
+    text-align: end;
+    padding: 10px 12px 0px 0px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+}
+.bed:hover{
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+#bed{
+    position: absolute;
+    left: 13%;
+    font-size: 15px;
+    top: 22%;
+}
+.kitchen{
+    height: 80%;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 4px;
+    font-size: 11px;
+    text-align: end;
+    padding: 10px 15px 0px 0px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+}
+.kitchen:hover{
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+#restro{
+    position: absolute;
+    left: 20%;
+    font-size: 15px;
+    top: 25%;
+}
+.share{
+    height: 55%;
+    width: 3%;
+    background-color: transparent;
+    background-color: rgba(41, 41, 41, 0.459);
+    backdrop-filter: blur(2px);
+    position: relative;
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+}
+.whatsaap{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: #C8CACD;
+    font-size: 22px;
+    padding: 1px 0px 1px 4px;
+    border-radius: 5px;
+    border: 1px solid #C8CACD;
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+.instagram{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #C8CACD;
+    font-size: 22px;
+    padding: 1px 0px 0px 4px;
+    border-radius: 5px;
+    border: 1px solid #C8CACD;
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+.openai{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #C8CACD;
+    font-size: 22px;
+    padding: 1px 0px 0px 4px;
+    border-radius: 5px;
+    border: 1px solid #C8CACD;
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+.twitter{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: #C8CACD;
+    font-size: 22px;
+    padding: 1px 0px 0px 4px;
+    border-radius: 5px;
+    border: 1px solid #C8CACD;
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+.chrome{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    color: #C8CACD;
+    font-size: 22px;
+    padding: 1px 0px 0px 4px;
+    border: 1px solid #C8CACD;
+    border-radius: 5px;
+    background-color: transparent;
+    background-color: rgba(146, 145, 145, 0.24);
+    backdrop-filter: blur(2px);
+}
+.homediv{
+    height: 7%;
+    width: 40%;
+    background-color: transparent;
+    background-color: rgba(41, 41, 41, 0.226);
+    backdrop-filter: blur(2px);
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.home{
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    margin: 7px 0px 0px 10px;
+    padding: 0px 0px 0px 2px;
+    border-radius: 8px;
+    color: #ffffff; 
+    font-size: 25px;
+}
+.home:hover{
+    background-color: #2D81FF;
+}
+.music{
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    margin: 7px 0px 0px 10px;
+    padding: 0px 0px 0px 2px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 25px; 
+}
+.music:hover{
+    background-color: #2D81FF;
+}
+.video{
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    margin: 7px 0px 0px 0px;
+    padding: 0px 0px 0px 2px;
+    border-radius: 8px;
+    color: #ffffff; 
+    font-size: 25px;
+}
+.video:hover{
+    background-color: #2D81FF;
+}
+.file{
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    margin: 7px 0px 0px 0px;
+    padding: 0px 0px 0px 3px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 25px; 
+}
+.file:hover{
+    background-color: #2D81FF;
+}
+.game{
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    margin: 7px 0px 0px 0px;
+    padding: 0px 0px 0px 2px;
+    border-radius: 8px;
+    color: #ffffff; 
+    font-size: 25px;
+}
+.game:hover{
+    background-color: #2D81FF;
+}
+.google{
+    height: 28px;
+    width: 28px;
+    background-color: transparent;
+    margin: 7px 0px 0px 0px;
+    padding: 0px 0px 0px 2px;
+    border-radius: 8px;
+    color: #ffffff; 
+    font-size: 25px;
+}
+.google:hover{
+    background-color: #2D81FF;
+}
+.container{
+    height: 80%;
+    width: 65%;
+    background-color: transparent;
+    background-color: rgba(41, 41, 41, 0.226);
+    backdrop-filter: blur(2px);
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.weather{
+    height: 39%;
+    width: 35%;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.weatherparent{
+    height: 60%;
+    width: 86%;
+    background-color: transparent;
+    position: relative;
+    position: absolute;
+    left: 7%;
+    border-bottom: 1px solid #ffffff;
+}
+.partlycloud{
+    height: 55%;
+    width: 86%;
+}
+.partlycloud  > img{
+    height: 60px;
+    width: 60px;
+}
+.partlycloud > h1{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    top: 12%;
+    font-size: 22px;
+    color: #ffffff;
+}
+.partlycloud > h6{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    top: 12%;
+    color: #ffffff;
+    font-weight: 100;
+}
+.partlycloud > p{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    top: 40%;
+    font-weight: 300;
+    font-size: 10px;
+    color: #ffffff;
+}
+.partlycloud > h5{
+    position: absolute;
+    top: 0%;
+    left: 77%;
+    top: 15%;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 13px;
+}
+#date{
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    top: 40%;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 10px;
+}
+.humiditiy{
+    height: 35%;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+}
+.humdiv{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    border-radius: 3px; 
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    padding: 4px 0px 0px 5px;
+    font-size: 20px;
+}
+#humidityp{
+    position: absolute;
+    top: 12%;
+    left: 21%;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #C1C3C6;
+}
+#eighteight{
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.windspeed{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    position: absolute;
+    left: 55%;
+    top: 5%;
+    border-radius: 3px; 
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    padding: 4px 0px 0px 5px;
+    font-size: 20px;
+}
+#windp{
+    position: absolute;
+    top: 12%;
+    left: 72%;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #C1C3C6;
+}
+#windh{
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.weatherparenttwo{
+       height: 30%;
+    width: 86%;
+    position: relative;
+    position: absolute;
+    left: 7%;
+    top: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+.sunday{
+    height: 54px;
+    width: 50px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    border-radius: 10px;
+}
+.sunday > img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.sunday > h6{
+    font-size: 10px;
+    padding: 2px 0px 0px 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.monday{
+    height: 54px;
+    width: 50px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    border-radius: 10px;
+}
+.monday > img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.monday > h6{
+    font-size: 10px;
+    padding: 2px 0px 0px 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.tuesday{
+    height: 54px;
+    width: 50px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    border-radius: 10px;
+}
+.tuesday > h6{
+    font-size: 10px;
+    padding: 2px 0px 0px 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.tuesday > img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.wednesday{
+    height: 54px;
+    width: 50px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    border-radius: 10px;
+}
+.wednesday > img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.wednesday > h6{
+    font-size: 10px;
+    padding: 2px 0px 0px 16px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+.livecamera{
+    height: 39%;
+    width: 55%;
+    position: relative;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.imgdiv{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+}
+.livecamera > img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.livingroom{
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    position: absolute;
+    top: 80%;
+}
+.livingroom > h6{
+    font-size: 8px;
+    padding: 10px 0px 0px 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.livingroom > p{
+    font-size: 8px;
+    padding: 2px 0px 0px 20px;
+    font-weight: 400;
+    color: #C1C3C6;
+}
+.mic{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 33%;
+    top: 15%;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 4px 0px 0px 4px;
+}
+.gola{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 25%;
+    top: 15%;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 3px 0px 0px 5px;
+}
+.scaner{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 17%;
+    top: 15%;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 3px 0px 0px 5px;
+}
+.livetoggle{
+    position: absolute;
+    right: 16%;
+    top: 33%;
+    display: none;
+}
+.liveswitch{
+    height: 22px;
+    width: 45px;
+    background-color: rgba(0, 0, 0, 0.30);
+    position: relative;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border-radius: 25px;
+    transition: all 0.3s linear;
+}
+.liveswitch::after{
+    content: "";
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 3%;
+    top: 7%;
+    transition: all 0.3s linear;
+}
+input[type= "checkbox"]:checked + .liveswitch:after {
+    transform: translate(23px);
+}
+input[type= "checkbox"]:checked + .liveswitch{
+    background-color: #2D81FF;
+}
+.sportify{
+    height: 25%;
+    width: 35%;
+    /* background-color: rgb(127, 178, 255); */
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.sportify > h1{
+    font-size: 12px;
+    position: absolute;
+    top: 17%;
+    left: 55%;
+    color: #ffffff;
+    font-weight: 700;   
+}
+.sportify > p{
+    font-size: 8px;
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    font-weight: 300;
+    color: #ffffff;
+}
+#logospotify{
+    position: absolute;
+    top: 6%;
+    right: 2%;
+    font-weight: 100;
+    color: #ffffff;
+
+}
+.songimgdiv{
+    height: 75px;
+    width: 75px;
+    background-color: #C8CACD;
+    margin: 19px 0px 0px 10px ;
+    border-radius: 10px;
+}
+.songimgdiv > img{
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;   
+}
+.icondiv{
+    height: 30px;
+    width: 190px;
+    position: relative;
+    position: absolute;
+    top: 43%;
+    left: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+.repet{
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 10px 0px 1px 12px;
+    font-weight: 100;
+}
+.previos{
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 0px 1px 7px;
+    font-weight: 300;
+}
+.stop{
+    height: 30px;
+    width: 30px;
+    font-size: 26px;
+    color: #ffffff;
+    padding: 1px 0px 1px 2px;
+}
+.next{
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 0px 1px 7px;
+    font-weight: 300;
+}
+.suffle{
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 10px 0px 1px 12px;
+    font-weight: 100;
+}
+.wifi{
+    height: 25%;
+    width: 16%;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.wifitoggle{
+    position: absolute;
+    right: 40%;
+    top: 8%;
+    display: ;
+}
+.wifiswitch{
+    height: 22px;
+    width: 45px;
+    background-color: rgba(0, 0, 0, 0.30);
+    position: relative;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    border-radius: 25px;
+    transition: all 0.3s linear;
+}
+.wifiswitch::after{
+    content: "";
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 3%;
+    top: 7%;
+    transition: all 0.3s linear;
+}
+input[type= "checkbox"]:checked + .wifiswitch:after {
+    transform: translate(23px);
+}
+input[type= "checkbox"]:checked + .wifiswitch{
+    background-color: #2D81FF;
+}
+.wifi > h1 {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 0px 0px 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.wifiimgdiv{
+    height: 70%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.wifiimgdiv > img {
+    height: 90px;
+    width: 100px;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+.alexa{
+    height: 25%;
+    width: 16%;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    position: absolute;
+    bottom: 2%;
+    left: 23%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.alexa > h1{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 0px 0px 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.alexaimgdiv{
+    height: 70%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.alexaimgdiv > img{
+    height: 90px;
+    width: 100px;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+.aircond{
+    height: 53%;
+    width: 30%;
+    background-color: rgb(127, 178, 255);
+    position: relative;
+    position: absolute;
+    top: 45%;
+    right: 29%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.aircond > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.smarttv{
+    height: 25%;
+    width: 23%;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    position: absolute;
+    top: 45%;
+    right: 4%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.smarttv > h1{
+    font-size: 10px;
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    font-weight: 500;
+    color: #ffffff;
+}
+.smarttv > p{
+    font-size: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-weight: 500;
+    color: #ffffff;
+}
+.netflix{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.netflix > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+.hotstar{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.hotstar > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+.primevideo{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+.primevideo > img{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+.addon{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    border-radius: 8px;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(10px);
+    font-size: 35px;
+    color: #ffffff;
+    padding: 0px 0px 0px 2px;
+    font-weight: 100;
+}
+.ambient{
+    height: 25%;
+    width: 23%;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(10px);
+    position: relative;
+    position: absolute;
+    top: 73%;
+    right: 4%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+.ambient > h1{
+    font-size: 10px;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    font-weight: 400;
+    color: #ffffff;
+}
+.ambient > p{
+    font-size: 10px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-weight: 300;
+    color: #ffffff;
+}
+.colorambi > img{
+    height: 60px;
+    width: 190px;
+    position: absolute;
+    top: 48%;
+    left: 0%;
+    border-radius: 10px 10px 20px 20px;
+}
